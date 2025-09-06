@@ -24,8 +24,6 @@ a aws possui uma extensa rede global de data centers, chamados de “regions”e
 
 **Saas x PaaS x Iaas**
 
-![image.png](attachment:9f602759-2bb1-4e59-aa47-89c7dccf66eb:image.png)
-
 **SaaS:** você não se preocupa com nada técnico: usa o **software pronto** pela internet. você USA. ex: gmail, google docs, slaesforce, dropbox;
 
 **PaaS:** você aluga uma plataforma pronta para rodar suas aplicações. a infra e o sistema já estão configurados, você só coloca o código e roda. você CONSTRUE ex: heroku, vercel, netlify, aws elastic beanstalk
@@ -74,17 +72,11 @@ são máquinas virtuais na AWS, podendo ser com sistema operacional windows ou l
 
 [O que é o Amazon EC2? - Amazon Elastic Compute Cloud](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/concepts.html)
 
-![image.png](attachment:51924051-92af-456b-8971-33f4cf8384a6:image.png)
-
 é muito importante o conhecimento de todas as máquinas EC2 disponíveis para sabermos exatamente qual se adapta melhor ao nosso cenário, é possível fazer uma estimativa dentro do site da própria aws, no pricing calculator:
 
 [AWS Pricing Calculator](https://calculator.aws/#/createCalculator/ec2-enhancement)
 
 ---
-
-Convenção de nomes: 
-
-![image.png](attachment:f3170568-57b7-4d3e-8780-5ffff80c2199:image.png)
 
 
 #### 3. Otimização de recursos
@@ -111,8 +103,6 @@ nós executamos o scale de recursor para processar os workloads em determinados 
 - é como se fosse um HD para uma instância EC2;
 - com o EBS, é possível terr a capacidade de expansão de forma rápida;
 - exemplo de uso: armazenamento de para DBs e armazenar dados para aplicativos web, logs e sistemas;
-
-![image.png](attachment:27db0091-9d5b-4f65-92b0-48048382bb17:image.png)
 
 
 ---
