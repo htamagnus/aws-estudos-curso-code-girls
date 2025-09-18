@@ -160,4 +160,4 @@ uso comum:
 
 - disaster recovery (se o volume original quebrar, basta restaurar).
 
-![diagrama aws](./docs/diagrama.svg)
+![diagrama aws](./docs/aws.drawio.svg)
