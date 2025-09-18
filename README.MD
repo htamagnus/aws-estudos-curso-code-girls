@@ -159,3 +159,5 @@ uso comum:
 - criar novos ambientes iguais (ex: criar um volume a partir de snapshot e anexar em outra ec2).
 
 - disaster recovery (se o volume original quebrar, basta restaurar).
+
+![diagrama aws](./docs/diagrama.svg)
